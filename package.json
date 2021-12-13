@@ -1,0 +1,25 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sean-Bettoni/Team-Profile-Generator.git"
+  },
+  "author": "Sean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sean-Bettoni/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/Sean-Bettoni/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
