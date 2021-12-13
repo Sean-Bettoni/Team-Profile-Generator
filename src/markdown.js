@@ -5,7 +5,7 @@ function generatePage() {
     <html lang="en-US">
 
     <head>
-        <link rel="stylesheet" href="./dist/style.css">
+        <link rel="stylesheet" href="../dist/styles.css">
     </head>
 
     <header class="team-heading">

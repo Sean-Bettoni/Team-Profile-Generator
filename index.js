@@ -128,12 +128,6 @@ function askForInternOrEngineer() {
                 .then(() => askForInternOrEngineer());
                 break;
         }
-
-        //     default:
-        //         askForEmployee(response.answer)
-        //         .then(() => askForInternOrEngineer());
-        //         break;
-        // }
     });
 }
 
@@ -166,34 +160,3 @@ function renderPage(employees) {
         fs.appendFileSync('index.html', markdown.generateEnd())
     } catch (err) { console.error(err) }
 }
-
-
-
-// const managerQuestions = [
-//     {
-//         type: 'input',
-//         name: 'id',
-//         message: 'Managers id?',
-//     },
-//     {
-//         type: 'input',
-//         name: 'email',
-//         message: 'Managers email?',
-//     },
-//     {
-//         type: 'input',
-//         name: 'name',
-//         message: 'Managers name?',
-//     },
-//     {
-//         type: 'input',
-//         name: 'officeNumber',
-//         message: 'Managers office number?',
-//     },            
-// ];
-
-// ask to add manager
-// if user selected no
-// generate the output
-
-
